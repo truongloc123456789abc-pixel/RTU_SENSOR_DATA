@@ -1,0 +1,416 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "58300698-576e-4370-8699-f53a3bd2f8ae")
+	(paper "A3")
+	(lib_symbols)
+	(rectangle
+		(start 47.498 18.542)
+		(end 66.548 27.178)
+		(stroke
+			(width 0.0508)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "9e1814a4-85a0-4e45-9a5d-3908622cb4f1")
+	)
+	(text "...."
+		(exclude_from_sim no)
+		(at 39.624 91.948 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0bb489f0-b886-4583-8341-e502e0b34d25")
+	)
+	(text "Power path\n"
+		(exclude_from_sim no)
+		(at 54.356 59.944 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1a0832a8-6125-463e-9bcc-4a92be95797f")
+	)
+	(text "stm32"
+		(exclude_from_sim no)
+		(at 23.876 91.694 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "29f9d6d0-7882-42b8-9dab-61b2d6c5e54a")
+	)
+	(text "IC sạc - PIN(2S 8.4-6V)"
+		(exclude_from_sim no)
+		(at 77.216 45.974 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2ca50043-61ed-4591-82e2-900bd6fc059d")
+	)
+	(text "9-24V"
+		(exclude_from_sim no)
+		(at 57.404 23.368 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "35fa1e5b-eda0-416a-ad17-10e6fb589741")
+	)
+	(text "Buck 5V\n"
+		(exclude_from_sim no)
+		(at 53.594 64.008 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "375fb0b2-2bf1-466b-bd1e-2f5bab063cae")
+	)
+	(text "LDO 3.3"
+		(exclude_from_sim no)
+		(at 36.83 81.026 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a7d9a82a-d630-43ed-abbb-50e791afd108")
+	)
+	(text "cầu chỉ - tvs - diode scho\n"
+		(exclude_from_sim no)
+		(at 56.896 30.226 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ae08cef7-6c0c-411c-88ae-879a53aa8f2d")
+	)
+	(text "5V_SYS\n\n"
+		(exclude_from_sim no)
+		(at 53.848 68.834 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ae719f0d-e570-4f1f-9f2d-40be768013b6")
+	)
+	(text "EC200"
+		(exclude_from_sim no)
+		(at 63.246 92.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ca51f394-4631-464b-b3c1-b99000678d95")
+	)
+	(text "BUCK 3.8"
+		(exclude_from_sim no)
+		(at 69.85 80.772 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d508907c-b805-4ff6-8eca-8578f69c6643")
+	)
+	(text "RS"
+		(exclude_from_sim no)
+		(at 77.47 62.738 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e8ebe7eb-1e24-419e-b587-ffa16811c6db")
+	)
+	(polyline
+		(pts
+			(xy 33.782 82.296) (xy 39.37 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d2483c0-cfc1-4a7f-8518-4219026ccb85")
+	)
+	(polyline
+		(pts
+			(xy 75.184 54.864) (xy 57.15 55.118)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "16bbb9e1-ed7a-4cb7-86b0-f9c57c030160")
+	)
+	(polyline
+		(pts
+			(xy 56.896 33.528) (xy 75.184 33.528)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1be4344d-e436-42cd-a0c7-efb6d0d6debf")
+	)
+	(polyline
+		(pts
+			(xy 56.896 33.528) (xy 37.846 33.274)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "206d28a4-0f88-4485-8024-10a94bfac108")
+	)
+	(polyline
+		(pts
+			(xy 51.562 55.118) (xy 51.562 58.166)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2566a5a3-9b9e-4c4a-8408-ec116d27b330")
+	)
+	(polyline
+		(pts
+			(xy 63.5 89.662) (xy 69.596 82.042)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3142bbb0-ad5a-4f6e-b635-9560213e95db")
+	)
+	(polyline
+		(pts
+			(xy 37.846 55.118) (xy 51.562 55.118)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "320c7a24-d4c4-40be-88f6-1131711e66d7")
+	)
+	(polyline
+		(pts
+			(xy 37.846 33.274) (xy 37.846 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c1e7779-48d9-4bb9-9bf5-524103fecb24")
+	)
+	(polyline
+		(pts
+			(xy 53.848 65.278) (xy 53.848 66.294)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ddb6693-8cb3-41d7-93c6-2ae7d7003b7a")
+	)
+	(polyline
+		(pts
+			(xy 36.83 71.374) (xy 36.83 78.994)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4082ea2d-6008-410a-a30a-016d06dd7a4c")
+	)
+	(polyline
+		(pts
+			(xy 33.782 82.042) (xy 23.622 89.408)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ff03fc8-f7a1-4317-baaa-26178d23dc4b")
+	)
+	(polyline
+		(pts
+			(xy 23.368 89.408) (xy 23.622 89.408)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "635278af-d23f-4651-a1ec-1262dc84615d")
+	)
+	(polyline
+		(pts
+			(xy 37.846 43.18) (xy 37.846 55.118)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6413ecac-240c-45a3-b5fc-06b931183992")
+	)
+	(polyline
+		(pts
+			(xy 75.184 47.498) (xy 75.184 54.864)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "711028e3-2255-416e-8d86-6b37a80297f4")
+	)
+	(polyline
+		(pts
+			(xy 57.15 55.118) (xy 57.15 58.42)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "74863be9-040b-421a-8ac7-49f0bf9b5480")
+	)
+	(polyline
+		(pts
+			(xy 56.896 27.178) (xy 56.896 33.528)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c37152a-db69-4b00-aa78-e2ce8444126b")
+	)
+	(polyline
+		(pts
+			(xy 75.184 33.528) (xy 75.184 43.942)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a43b8165-7c06-41ba-bb82-397b41363c50")
+	)
+	(polyline
+		(pts
+			(xy 53.848 61.214) (xy 53.848 62.738)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad79a61f-1272-48a1-b3c2-39cf191b681f")
+	)
+	(polyline
+		(pts
+			(xy 69.85 71.12) (xy 69.85 79.248)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1e6eeeb-db46-4a75-8c8a-b2103316a870")
+	)
+	(polyline
+		(pts
+			(xy 53.848 71.12) (xy 69.85 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5ff847c-d25c-4f21-953c-408658da4257")
+	)
+	(polyline
+		(pts
+			(xy 57.912 67.31) (xy 75.438 62.484)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa91429d-1793-4d01-8439-ff618af6d2e1")
+	)
+	(polyline
+		(pts
+			(xy 53.848 69.596) (xy 53.848 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc05360d-84b3-498c-9df9-d6ecad5f421c")
+	)
+	(polyline
+		(pts
+			(xy 53.848 71.12) (xy 36.83 71.374)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe9f70ca-f4de-480a-b2dd-924a0d77fd73")
+	)
+	(sheet
+		(at 310.896 223.012)
+		(size 50.546 16.51)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "65e386cb-9548-49f6-bb9d-9bb9bdd2908b")
+		(property "Sheetname" "RTU_SENSOR_DATA"
+			(at 310.896 222.3004 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "RTU_SENSOR_DATA.kicad_sch"
+			(at 310.896 240.1066 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "loc"
+				(path "/da19c67a-469a-44e7-8a74-463ad7920b7d/a98a3ab7-a6a1-4de3-a15a-b725e6acd4de"
+					(page "3")
+				)
+			)
+		)
+	)
+)

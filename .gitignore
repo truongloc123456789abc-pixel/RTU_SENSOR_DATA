@@ -1,0 +1,39 @@
+# ==========================
+# KiCad
+# ==========================
+
+# Lock files
+*.lck
+
+# Backup files
+*.bak
+
+# Temporary files
+*.tmp
+
+# Auto backup folders
+*-backups/
+
+# Personal workspace (không cần nếu làm nhóm)
+*.kicad_prl
+
+# ==========================
+# VS Code
+# ==========================
+
+.history/
+
+# ==========================
+# OS
+# ==========================
+
+Thumbs.db
+.DS_Store
+Desktop.ini
+
+# ==========================
+# Temporary test sheets
+# ==========================
+
+untitled*.kicad_sch
+untitle*.kicad_sch

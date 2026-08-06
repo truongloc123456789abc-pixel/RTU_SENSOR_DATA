@@ -1,0 +1,64 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "da19c67a-469a-44e7-8a74-463ad7920b7d")
+	(paper "A3")
+	(title_block
+		(date "2026-07-23")
+		(company "HUST")
+	)
+	(lib_symbols)
+	(sheet
+		(at 14.097 15.621)
+		(size 14.732 9.906)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "a98a3ab7-a6a1-4de3-a15a-b725e6acd4de")
+		(property "Sheetname" "so_do_khoi"
+			(at 14.097 14.9094 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "so_do_khoi.kicad_sch"
+			(at 14.097 26.1116 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "loc"
+				(path "/da19c67a-469a-44e7-8a74-463ad7920b7d"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
