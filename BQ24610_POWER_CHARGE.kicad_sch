@@ -2210,7 +2210,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Transistor_FET:Si7617DN"
+		(symbol "Transistor_FET:FDS6630A"
 			(pin_names
 				(hide yes)
 			)
@@ -2220,7 +2220,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "Q"
-				(at 5.08 1.905 0)
+				(at 5.08 2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -2230,7 +2230,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "Si7617DN"
+			(property "Value" "FDS6630A"
 				(at 5.08 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2241,7 +2241,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_SO:Vishay_PowerPAK_1212-8_Single"
+			(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 				(at 5.08 -1.905 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2254,7 +2254,7 @@
 					(justify left)
 				)
 			)
-			(property "Datasheet" "https://www.vishay.com/docs/65164/si7617dn.pdf"
+			(property "Datasheet" "http://www.onsemi.com/pub/Collateral/FDS6630A-D.pdf"
 				(at 5.08 -3.81 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2266,359 +2266,7 @@
 					(justify left)
 				)
 			)
-			(property "Description" "-35A Id, -30V Vds, 0.0123 Ohm Ron, PowerPAK-8"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "P-Channel MOSFET"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Vishay*PowerPAK*1212*Single*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Si7617DN_0_1"
-				(polyline
-					(pts
-						(xy 0.254 1.905) (xy 0.254 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 2.286) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 1.778) (xy 3.302 1.778) (xy 3.302 -1.778) (xy 0.762 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0.508) (xy 0.762 -0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.27) (xy 0.762 -2.286)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.651 0)
-					(radius 2.794)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.286 0) (xy 1.27 0.381) (xy 1.27 -0.381) (xy 2.286 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 2.54 -1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.794 -0.508) (xy 2.921 -0.381) (xy 3.683 -0.381) (xy 3.81 -0.254)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 -0.381) (xy 2.921 0.254) (xy 3.683 0.254) (xy 3.302 -0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Si7617DN_1_1"
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(hide yes)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(hide yes)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Transistor_FET:SiS454DN"
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "Q"
-				(at 5.08 1.905 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "SiS454DN"
-				(at 5.08 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_SO:Vishay_PowerPAK_1212-8_Single"
-				(at 5.08 -1.905 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(justify left)
-				)
-			)
-			(property "Datasheet" "https://www.vishay.com/docs/66707/sis454dn.pdf"
-				(at 5.08 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Description" "35A Id, 20V Vds, N-Channel MOSFET, PowerPAK 1212-8 Single"
+			(property "Description" "6.5A Id, 30V Vds, N-Channel MOSFET, 38mOhm Ron, SOIC-8"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2640,7 +2288,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "Vishay*PowerPAK*1212*Single*"
+			(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2651,7 +2299,7 @@
 					)
 				)
 			)
-			(symbol "SiS454DN_0_1"
+			(symbol "FDS6630A_0_1"
 				(polyline
 					(pts
 						(xy 0.254 1.905) (xy 0.254 -1.905)
@@ -2818,7 +2466,7 @@
 					)
 				)
 			)
-			(symbol "SiS454DN_1_1"
+			(symbol "FDS6630A_1_1"
 				(pin passive line
 					(at 2.54 -5.08 90)
 					(length 2.54)
@@ -2904,6 +2552,63 @@
 						)
 					)
 					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(hide yes)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(hide yes)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(hide yes)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3161,6 +2866,619 @@
 						(effects
 							(font
 								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "symbol:AO4407A"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "Q"
+				(at -8.89 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "AO4407A"
+				(at -8.89 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "footprintf:SOIC127P600X175-8N"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "P-Channel 30 V 12A (Ta) 3.1W (Ta) Surface Mount 8-SOIC"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MF" "Alpha &"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "1.75 mm"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Package" "SOIC-8 Alpha &amp; Omega Semiconductor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/AO4407A/Alpha/view-part/?ref=eda"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "STANDARD" "IPC 7351B"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "PARTREV" "I"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/AO4407A/Alpha/view-part/?ref=snap"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MP" "AO4407A"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MANUFACTURER" "Alpha & Omega Semiconductor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(symbol "AO4407A_0_0"
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.54) (xy 0.762 3.175)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 1.905) (xy 0.762 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0) (xy 0.762 0.762)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -0.762) (xy 0.762 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -2.54) (xy 0.762 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -2.54) (xy 3.81 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -3.175) (xy 0.762 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 0.762 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 3.81 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 2.54)
+					(radius 0.3592)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 1.524 0.762) (xy 1.524 -0.762) (xy 2.54 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -2.54)
+					(radius 0.3592)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.048 0.762) (xy 3.302 0.508)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 0.508) (xy 3.81 0.508)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 0.508) (xy 3.81 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 0.508) (xy 4.318 0.508)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 0.508) (xy 4.318 -0.254) (xy 3.302 -0.254) (xy 3.81 0.508)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -2.54) (xy 3.81 0.508)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.318 0.508) (xy 4.572 0.254)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(hide yes)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(hide yes)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 2.54 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(hide yes)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(hide yes)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(hide yes)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.016 1.016)
 							)
 						)
 					)
@@ -3748,12 +4066,6 @@
 		(uuid "5a279ba3-1956-4b7d-9e45-834d8ad72df7")
 	)
 	(junction
-		(at 136.398 64.008)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5f3e9e61-4c26-4c14-8462-543346f81a48")
-	)
-	(junction
 		(at 259.588 86.868)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3946,6 +4258,12 @@
 		(uuid "f1a49971-c6b1-4983-926f-fb6c6346f6f4")
 	)
 	(junction
+		(at 136.398 64.008)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f499d6d5-ee59-4e91-8e84-c14d1031cade")
+	)
+	(junction
 		(at 259.588 104.648)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4065,6 +4383,16 @@
 	)
 	(wire
 		(pts
+			(xy 328.168 74.168) (xy 328.168 76.835)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0efff4bd-f7db-4c46-9de1-47e856a5aa0e")
+	)
+	(wire
+		(pts
 			(xy 155.448 138.938) (xy 164.338 138.938)
 		)
 		(stroke
@@ -4165,7 +4493,7 @@
 	)
 	(wire
 		(pts
-			(xy 318.008 74.168) (xy 325.628 74.168)
+			(xy 318.008 74.168) (xy 328.168 74.168)
 		)
 		(stroke
 			(width 0)
@@ -4202,6 +4530,16 @@
 			(type default)
 		)
 		(uuid "1f2958d8-c0a6-49cc-b3b6-4235728109d2")
+	)
+	(wire
+		(pts
+			(xy 128.778 64.008) (xy 136.398 64.008)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f7db1cd-98ea-4a7d-8def-a914a84e1392")
 	)
 	(wire
 		(pts
@@ -4325,6 +4663,16 @@
 	)
 	(wire
 		(pts
+			(xy 154.178 55.118) (xy 154.051 64.008)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ad404d3-f28d-4e8d-b4a7-996a08099d92")
+	)
+	(wire
+		(pts
 			(xy 290.068 107.188) (xy 290.068 112.268)
 		)
 		(stroke
@@ -4342,6 +4690,16 @@
 			(type default)
 		)
 		(uuid "3ce83541-b3fa-4345-92d9-3826cb0be720")
+	)
+	(wire
+		(pts
+			(xy 128.778 55.118) (xy 128.778 64.008)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e095d68-c8e1-4cee-95df-cb962dbfed13")
 	)
 	(wire
 		(pts
@@ -4775,16 +5133,6 @@
 	)
 	(wire
 		(pts
-			(xy 126.238 64.008) (xy 136.398 64.008)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "64c2fa24-9460-48c1-bbb3-9a42bec59b9a")
-	)
-	(wire
-		(pts
 			(xy 240.538 69.088) (xy 241.808 69.088)
 		)
 		(stroke
@@ -4935,6 +5283,16 @@
 	)
 	(wire
 		(pts
+			(xy 333.248 79.375) (xy 333.248 90.678)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74b98e3d-c78d-43a3-8dee-b60ea52885db")
+	)
+	(wire
+		(pts
 			(xy 259.588 104.648) (xy 259.588 105.918)
 		)
 		(stroke
@@ -4952,16 +5310,6 @@
 			(type default)
 		)
 		(uuid "78e792a4-d11d-4368-91df-24088fa2693d")
-	)
-	(wire
-		(pts
-			(xy 333.248 79.248) (xy 333.248 90.678)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "79da20d6-f76d-4c55-95c6-d7ce33ad3259")
 	)
 	(wire
 		(pts
@@ -5002,16 +5350,6 @@
 			(type default)
 		)
 		(uuid "7cc94607-571f-43da-99bd-8f0ef77af85e")
-	)
-	(wire
-		(pts
-			(xy 156.718 64.008) (xy 156.718 57.658)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7d1da043-8ac2-471d-9c79-544411814f05")
 	)
 	(wire
 		(pts
@@ -5415,7 +5753,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.558 64.008) (xy 156.718 64.008)
+			(xy 146.558 64.008) (xy 154.051 64.008)
 		)
 		(stroke
 			(width 0)
@@ -5472,6 +5810,16 @@
 			(type default)
 		)
 		(uuid "b6c3ea17-0c59-43b3-8361-caa9f8f0df71")
+	)
+	(wire
+		(pts
+			(xy 333.248 57.658) (xy 333.248 69.215)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b72d11d0-82b3-4d04-8fb1-7f57e7c70406")
 	)
 	(wire
 		(pts
@@ -5682,16 +6030,6 @@
 			(type default)
 		)
 		(uuid "d0a07538-0a47-4e7f-8c77-58b11944e70f")
-	)
-	(wire
-		(pts
-			(xy 333.248 57.658) (xy 333.248 69.088)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d0ce9444-02ab-49c5-9b48-b5b3bc949346")
 	)
 	(wire
 		(pts
@@ -6072,16 +6410,6 @@
 			(type default)
 		)
 		(uuid "fa57cbf9-e5f6-49ab-800a-89d6ae3b7d6d")
-	)
-	(wire
-		(pts
-			(xy 126.238 57.658) (xy 126.238 64.008)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fdfda4c0-943c-4db3-82b9-4613d11bd4ec")
 	)
 	(label "VFB"
 		(at 230.378 128.778 0)
@@ -6531,6 +6859,17 @@
 				)
 			)
 		)
+		(property "LCSC part" ""
+			(at 227.838 64.008 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "989ba3b1-1e94-422a-bc3d-afbdd649dc71")
 		)
@@ -6542,6 +6881,9 @@
 				(path "/da19c67a-469a-44e7-8a74-463ad7920b7d/a98a3ab7-a6a1-4de3-a15a-b725e6acd4de/65e386cb-9548-49f6-bb9d-9bb9bdd2908b/2d4bd427-56ea-4b53-912b-30a9d9c120c0"
 					(reference "C10")
 					(unit 1)
+					(variant
+						(name "lcsc part")
+					)
 				)
 			)
 		)
@@ -6624,98 +6966,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:Si7617DN")
-		(at 126.238 52.578 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "06f50b89-bfb9-42d5-9688-938bb75345e5")
-		(property "Reference" "Q1"
-			(at 126.238 43.18 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Si7617DN"
-			(at 126.238 45.72 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:Vishay_PowerPAK_1212-8_Single"
-			(at 128.143 47.498 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/65164/si7617dn.pdf"
-			(at 130.048 47.498 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "-35A Id, -30V Vds, 0.0123 Ohm Ron, PowerPAK-8"
-			(at 126.238 52.578 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "5"
-			(uuid "a5d279e8-ff89-4f57-8be4-a32b2ef41fd8")
-		)
-		(pin "4"
-			(uuid "42cd5211-d5c0-467e-9b87-14fae4a8ba77")
-		)
-		(pin "2"
-			(uuid "fbe3784c-aa95-42f9-a071-aedf7b7d1842")
-		)
-		(pin "3"
-			(uuid "c46e72df-7c65-41ac-a2f2-1278a9559163")
-		)
-		(pin "1"
-			(uuid "3512dbbf-6e2e-4b7a-9d90-2dfd5f8c0eb8")
-		)
-		(instances
-			(project "loc"
-				(path "/da19c67a-469a-44e7-8a74-463ad7920b7d/a98a3ab7-a6a1-4de3-a15a-b725e6acd4de/65e386cb-9548-49f6-bb9d-9bb9bdd2908b/2d4bd427-56ea-4b53-912b-30a9d9c120c0"
-					(reference "Q1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 184.658 117.348 0)
 		(unit 1)
@@ -6782,6 +7032,17 @@
 				)
 			)
 		)
+		(property "LCSC part" ""
+			(at 184.658 117.348 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "98e73e2d-9b47-477d-97e1-e7e727ae1727")
 		)
@@ -6793,6 +7054,9 @@
 				(path "/da19c67a-469a-44e7-8a74-463ad7920b7d/a98a3ab7-a6a1-4de3-a15a-b725e6acd4de/65e386cb-9548-49f6-bb9d-9bb9bdd2908b/2d4bd427-56ea-4b53-912b-30a9d9c120c0"
 					(reference "C6")
 					(unit 1)
+					(variant
+						(name "lcsc part")
+					)
 				)
 			)
 		)
@@ -6942,6 +7206,17 @@
 				)
 			)
 		)
+		(property "LCSC part" ""
+			(at 136.398 57.658 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "2105b239-06c3-45dd-831d-f83bd3175296")
 		)
@@ -6953,6 +7228,9 @@
 				(path "/da19c67a-469a-44e7-8a74-463ad7920b7d/a98a3ab7-a6a1-4de3-a15a-b725e6acd4de/65e386cb-9548-49f6-bb9d-9bb9bdd2908b/2d4bd427-56ea-4b53-912b-30a9d9c120c0"
 					(reference "R4")
 					(unit 1)
+					(variant
+						(name "lcsc part")
+					)
 				)
 			)
 		)
@@ -7024,6 +7302,17 @@
 				)
 			)
 		)
+		(property "LCSC part" ""
+			(at 110.744 58.928 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "515e3ac4-d56f-4914-a2ff-88f4c7e9f5d4")
 		)
@@ -7035,6 +7324,9 @@
 				(path "/da19c67a-469a-44e7-8a74-463ad7920b7d/a98a3ab7-a6a1-4de3-a15a-b725e6acd4de/65e386cb-9548-49f6-bb9d-9bb9bdd2908b/2d4bd427-56ea-4b53-912b-30a9d9c120c0"
 					(reference "R2")
 					(unit 1)
+					(variant
+						(name "lcsc part")
+					)
 				)
 			)
 		)
@@ -7106,6 +7398,17 @@
 				)
 			)
 		)
+		(property "LCSC part" ""
+			(at 353.568 104.648 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "c5381975-970d-43bf-9bea-3fd0e4f9d00c")
 		)
@@ -7117,6 +7420,9 @@
 				(path "/da19c67a-469a-44e7-8a74-463ad7920b7d/a98a3ab7-a6a1-4de3-a15a-b725e6acd4de/65e386cb-9548-49f6-bb9d-9bb9bdd2908b/2d4bd427-56ea-4b53-912b-30a9d9c120c0"
 					(reference "C18")
 					(unit 1)
+					(variant
+						(name "lcsc part")
+					)
 				)
 			)
 		)
@@ -7186,6 +7492,17 @@
 				)
 			)
 		)
+		(property "LCSC part" ""
+			(at 128.524 245.872 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "7"
 			(uuid "ed52b02a-a46f-4f40-9060-875a5f0e59c3")
 		)
@@ -7215,6 +7532,9 @@
 				(path "/da19c67a-469a-44e7-8a74-463ad7920b7d/a98a3ab7-a6a1-4de3-a15a-b725e6acd4de/65e386cb-9548-49f6-bb9d-9bb9bdd2908b/2d4bd427-56ea-4b53-912b-30a9d9c120c0"
 					(reference "U1")
 					(unit 1)
+					(variant
+						(name "lcsc part")
+					)
 				)
 			)
 		)
@@ -7440,6 +7760,17 @@
 				)
 			)
 		)
+		(property "LCSC part" ""
+			(at 254.508 163.068 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "a4ee9a63-780c-4c6b-8800-7cfbe1d402c5")
 		)
@@ -7451,6 +7782,9 @@
 				(path "/da19c67a-469a-44e7-8a74-463ad7920b7d/a98a3ab7-a6a1-4de3-a15a-b725e6acd4de/65e386cb-9548-49f6-bb9d-9bb9bdd2908b/2d4bd427-56ea-4b53-912b-30a9d9c120c0"
 					(reference "R17")
 					(unit 1)
+					(variant
+						(name "lcsc part")
+					)
 				)
 			)
 		)
@@ -7512,6 +7846,17 @@
 			)
 		)
 		(property "Description" "10A, 28V max voltage, Li-Ion Charger w/600kHz NMOS-NMOS Synchronous Buck Converter, VQFN-24"
+			(at 212.598 123.698 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC part" ""
 			(at 212.598 123.698 0)
 			(hide yes)
 			(show_name no)
@@ -7602,6 +7947,9 @@
 				(path "/da19c67a-469a-44e7-8a74-463ad7920b7d/a98a3ab7-a6a1-4de3-a15a-b725e6acd4de/65e386cb-9548-49f6-bb9d-9bb9bdd2908b/2d4bd427-56ea-4b53-912b-30a9d9c120c0"
 					(reference "U3")
 					(unit 1)
+					(variant
+						(name "lcsc part")
+					)
 				)
 			)
 		)
@@ -7673,6 +8021,17 @@
 				)
 			)
 		)
+		(property "LCSC part" ""
+			(at 188.468 140.208 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "cf422e7c-5a7b-490e-9327-8a4726dc4ab5")
 		)
@@ -7684,6 +8043,9 @@
 				(path "/da19c67a-469a-44e7-8a74-463ad7920b7d/a98a3ab7-a6a1-4de3-a15a-b725e6acd4de/65e386cb-9548-49f6-bb9d-9bb9bdd2908b/2d4bd427-56ea-4b53-912b-30a9d9c120c0"
 					(reference "C8")
 					(unit 1)
+					(variant
+						(name "lcsc part")
+					)
 				)
 			)
 		)
@@ -7755,6 +8117,17 @@
 				)
 			)
 		)
+		(property "LCSC part" ""
+			(at 145.288 118.618 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "081cef60-2cec-4bfc-9460-37c994e7b72c")
 		)
@@ -7765,6 +8138,241 @@
 			(project "loc"
 				(path "/da19c67a-469a-44e7-8a74-463ad7920b7d/a98a3ab7-a6a1-4de3-a15a-b725e6acd4de/65e386cb-9548-49f6-bb9d-9bb9bdd2908b/2d4bd427-56ea-4b53-912b-30a9d9c120c0"
 					(reference "R6")
+					(unit 1)
+					(variant
+						(name "lcsc part")
+					)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "symbol:AO4407A")
+		(at 156.718 52.578 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "31364853-fa9c-4275-a8ab-f0cb8882f344")
+		(property "Reference" "Q2"
+			(at 156.718 42.545 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AO4407A"
+			(at 156.718 45.085 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprintf:SOIC127P600X175-8N"
+			(at 156.718 52.578 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.718 52.578 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "P-Channel 30 V 12A (Ta) 3.1W (Ta) Surface Mount 8-SOIC"
+			(at 156.718 52.578 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MF" "Alpha &"
+			(at 156.718 52.578 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "1.75 mm"
+			(at 156.718 52.578 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "SOIC-8 Alpha &amp; Omega Semiconductor"
+			(at 156.718 52.578 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 156.718 52.578 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/AO4407A/Alpha/view-part/?ref=eda"
+			(at 156.718 52.578 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "IPC 7351B"
+			(at 156.718 52.578 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PARTREV" "I"
+			(at 156.718 52.578 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/AO4407A/Alpha/view-part/?ref=snap"
+			(at 156.718 52.578 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "AO4407A"
+			(at 156.718 52.578 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 156.718 52.578 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "Alpha & Omega Semiconductor"
+			(at 156.718 52.578 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "8"
+			(uuid "9356bb30-00d6-4669-a404-6f4dc1e8f772")
+		)
+		(pin "6"
+			(uuid "6c2a5ac7-a7cc-4196-903e-ccd83b18bbef")
+		)
+		(pin "1"
+			(uuid "db611f65-60d2-4268-8d43-d9bb998660f4")
+		)
+		(pin "4"
+			(uuid "f0481d59-cdf2-485d-9be6-17ede4b59c29")
+		)
+		(pin "7"
+			(uuid "3de138dc-f28c-4d7a-bbbd-c93963d2d571")
+		)
+		(pin "5"
+			(uuid "53cca1b8-9965-412c-8019-d8e4e372d598")
+		)
+		(pin "2"
+			(uuid "c75aa1af-1999-44a1-952f-243cd21b2216")
+		)
+		(pin "3"
+			(uuid "3db1f757-c7f5-4eb2-bdf2-92553fef41a1")
+		)
+		(instances
+			(project "loc"
+				(path "/da19c67a-469a-44e7-8a74-463ad7920b7d/a98a3ab7-a6a1-4de3-a15a-b725e6acd4de/65e386cb-9548-49f6-bb9d-9bb9bdd2908b/2d4bd427-56ea-4b53-912b-30a9d9c120c0"
+					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -7993,6 +8601,17 @@
 				)
 			)
 		)
+		(property "LCSC part" ""
+			(at 386.588 104.648 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "4e0d747e-4e91-4ad4-87d1-c6606c4c9ce0")
 		)
@@ -8004,6 +8623,9 @@
 				(path "/da19c67a-469a-44e7-8a74-463ad7920b7d/a98a3ab7-a6a1-4de3-a15a-b725e6acd4de/65e386cb-9548-49f6-bb9d-9bb9bdd2908b/2d4bd427-56ea-4b53-912b-30a9d9c120c0"
 					(reference "C20")
 					(unit 1)
+					(variant
+						(name "lcsc part")
+					)
 				)
 			)
 		)
@@ -8075,6 +8697,17 @@
 				)
 			)
 		)
+		(property "LCSC part" ""
+			(at 171.958 81.788 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "af036b96-f7a2-4f69-a376-9501dd4c7752")
 		)
@@ -8086,6 +8719,9 @@
 				(path "/da19c67a-469a-44e7-8a74-463ad7920b7d/a98a3ab7-a6a1-4de3-a15a-b725e6acd4de/65e386cb-9548-49f6-bb9d-9bb9bdd2908b/2d4bd427-56ea-4b53-912b-30a9d9c120c0"
 					(reference "C5")
 					(unit 1)
+					(variant
+						(name "lcsc part")
+					)
 				)
 			)
 		)
@@ -8169,98 +8805,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:Si7617DN")
-		(at 156.718 52.578 270)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "463c42db-aebd-42ad-a44a-d840035bfb19")
-		(property "Reference" "Q2"
-			(at 156.718 43.688 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Si7617DN"
-			(at 156.718 46.228 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:Vishay_PowerPAK_1212-8_Single"
-			(at 154.813 47.498 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/65164/si7617dn.pdf"
-			(at 152.908 47.498 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "-35A Id, -30V Vds, 0.0123 Ohm Ron, PowerPAK-8"
-			(at 156.718 52.578 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3fa97353-56bc-4157-bf22-a12a6894a819")
-		)
-		(pin "4"
-			(uuid "9873fd04-e36e-4de8-b35c-9b9dfc827bfb")
-		)
-		(pin "2"
-			(uuid "3eaa4324-e3c1-4c2e-baaf-b332ab70e8e8")
-		)
-		(pin "3"
-			(uuid "50286647-81ac-4bb0-833b-f916280126a4")
-		)
-		(pin "5"
-			(uuid "a67da788-b499-43af-8c6b-c6a287d44c9b")
-		)
-		(instances
-			(project "loc"
-				(path "/da19c67a-469a-44e7-8a74-463ad7920b7d/a98a3ab7-a6a1-4de3-a15a-b725e6acd4de/65e386cb-9548-49f6-bb9d-9bb9bdd2908b/2d4bd427-56ea-4b53-912b-30a9d9c120c0"
-					(reference "Q2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Screw_Terminal_01x03")
 		(at 63.5 201.168 180)
 		(unit 1)
@@ -8324,6 +8868,17 @@
 				)
 			)
 		)
+		(property "LCSC part" ""
+			(at 63.5 201.168 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "11080ed7-ff35-479e-8ef4-b3b2895e0060")
 		)
@@ -8338,6 +8893,9 @@
 				(path "/da19c67a-469a-44e7-8a74-463ad7920b7d/a98a3ab7-a6a1-4de3-a15a-b725e6acd4de/65e386cb-9548-49f6-bb9d-9bb9bdd2908b/2d4bd427-56ea-4b53-912b-30a9d9c120c0"
 					(reference "J2")
 					(unit 1)
+					(variant
+						(name "lcsc part")
+					)
 				)
 			)
 		)
@@ -8409,6 +8967,17 @@
 				)
 			)
 		)
+		(property "LCSC part" ""
+			(at 120.396 199.136 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "3e15dea7-0cd7-4480-9a5f-0beacb4e5d4b")
 		)
@@ -8420,6 +8989,9 @@
 				(path "/da19c67a-469a-44e7-8a74-463ad7920b7d/a98a3ab7-a6a1-4de3-a15a-b725e6acd4de/65e386cb-9548-49f6-bb9d-9bb9bdd2908b/2d4bd427-56ea-4b53-912b-30a9d9c120c0"
 					(reference "C3")
 					(unit 1)
+					(variant
+						(name "lcsc part")
+					)
 				)
 			)
 		)
@@ -8491,6 +9063,17 @@
 				)
 			)
 		)
+		(property "LCSC part" ""
+			(at 164.338 135.128 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c1ec488e-a109-4e52-85fd-6582b80163ef")
 		)
@@ -8502,6 +9085,9 @@
 				(path "/da19c67a-469a-44e7-8a74-463ad7920b7d/a98a3ab7-a6a1-4de3-a15a-b725e6acd4de/65e386cb-9548-49f6-bb9d-9bb9bdd2908b/2d4bd427-56ea-4b53-912b-30a9d9c120c0"
 					(reference "R11")
 					(unit 1)
+					(variant
+						(name "lcsc part")
+					)
 				)
 			)
 		)
@@ -8595,6 +9181,17 @@
 				)
 			)
 		)
+		(property "LCSC part" ""
+			(at 259.588 98.298 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "715a28ec-d471-41aa-af97-1b9805a36b8d")
 		)
@@ -8606,6 +9203,9 @@
 				(path "/da19c67a-469a-44e7-8a74-463ad7920b7d/a98a3ab7-a6a1-4de3-a15a-b725e6acd4de/65e386cb-9548-49f6-bb9d-9bb9bdd2908b/2d4bd427-56ea-4b53-912b-30a9d9c120c0"
 					(reference "D5")
 					(unit 1)
+					(variant
+						(name "lcsc part")
+					)
 				)
 			)
 		)
@@ -8675,6 +9275,17 @@
 				)
 			)
 		)
+		(property "LCSC part" ""
+			(at 185.928 50.038 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ee9c93b4-a7d9-4b23-af22-5a06307f17b9")
 		)
@@ -8686,6 +9297,9 @@
 				(path "/da19c67a-469a-44e7-8a74-463ad7920b7d/a98a3ab7-a6a1-4de3-a15a-b725e6acd4de/65e386cb-9548-49f6-bb9d-9bb9bdd2908b/2d4bd427-56ea-4b53-912b-30a9d9c120c0"
 					(reference "R13")
 					(unit 1)
+					(variant
+						(name "lcsc part")
+					)
 				)
 			)
 		)
@@ -8755,6 +9369,17 @@
 				)
 			)
 		)
+		(property "LCSC part" ""
+			(at 264.668 141.478 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "7f985f38-8041-4bd5-b69f-9c883700d820")
 		)
@@ -8766,6 +9391,9 @@
 				(path "/da19c67a-469a-44e7-8a74-463ad7920b7d/a98a3ab7-a6a1-4de3-a15a-b725e6acd4de/65e386cb-9548-49f6-bb9d-9bb9bdd2908b/2d4bd427-56ea-4b53-912b-30a9d9c120c0"
 					(reference "R20")
 					(unit 1)
+					(variant
+						(name "lcsc part")
+					)
 				)
 			)
 		)
@@ -8834,6 +9462,17 @@
 				)
 			)
 		)
+		(property "LCSC part" ""
+			(at 264.668 132.588 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "be3b0cef-5b8f-4a4c-a2e8-2fd6d4ffa4bd")
 		)
@@ -8845,6 +9484,9 @@
 				(path "/da19c67a-469a-44e7-8a74-463ad7920b7d/a98a3ab7-a6a1-4de3-a15a-b725e6acd4de/65e386cb-9548-49f6-bb9d-9bb9bdd2908b/2d4bd427-56ea-4b53-912b-30a9d9c120c0"
 					(reference "R19")
 					(unit 1)
+					(variant
+						(name "lcsc part")
+					)
 				)
 			)
 		)
@@ -8916,6 +9558,17 @@
 				)
 			)
 		)
+		(property "LCSC part" ""
+			(at 141.478 76.708 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ac18f818-5a5e-4e75-b302-0b89c461aac7")
 		)
@@ -8927,6 +9580,9 @@
 				(path "/da19c67a-469a-44e7-8a74-463ad7920b7d/a98a3ab7-a6a1-4de3-a15a-b725e6acd4de/65e386cb-9548-49f6-bb9d-9bb9bdd2908b/2d4bd427-56ea-4b53-912b-30a9d9c120c0"
 					(reference "R5")
 					(unit 1)
+					(variant
+						(name "lcsc part")
+					)
 				)
 			)
 		)
@@ -9163,6 +9819,17 @@
 				)
 			)
 		)
+		(property "LCSC part" ""
+			(at 251.968 150.368 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "0f3f02a9-264f-4db2-9c78-5d896ddccc07")
 		)
@@ -9174,6 +9841,9 @@
 				(path "/da19c67a-469a-44e7-8a74-463ad7920b7d/a98a3ab7-a6a1-4de3-a15a-b725e6acd4de/65e386cb-9548-49f6-bb9d-9bb9bdd2908b/2d4bd427-56ea-4b53-912b-30a9d9c120c0"
 					(reference "D4")
 					(unit 1)
+					(variant
+						(name "lcsc part")
+					)
 				)
 			)
 		)
@@ -9324,6 +9994,17 @@
 				)
 			)
 		)
+		(property "LCSC part" ""
+			(at 259.588 109.728 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "0220d8bb-201f-4606-96cd-8f7baf6fe58f")
 		)
@@ -9335,6 +10016,9 @@
 				(path "/da19c67a-469a-44e7-8a74-463ad7920b7d/a98a3ab7-a6a1-4de3-a15a-b725e6acd4de/65e386cb-9548-49f6-bb9d-9bb9bdd2908b/2d4bd427-56ea-4b53-912b-30a9d9c120c0"
 					(reference "C12")
 					(unit 1)
+					(variant
+						(name "lcsc part")
+					)
 				)
 			)
 		)
@@ -9406,6 +10090,17 @@
 				)
 			)
 		)
+		(property "LCSC part" ""
+			(at 306.578 65.278 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "2f4615fc-aa90-4e2f-b13c-73d482513e32")
 		)
@@ -9417,6 +10112,9 @@
 				(path "/da19c67a-469a-44e7-8a74-463ad7920b7d/a98a3ab7-a6a1-4de3-a15a-b725e6acd4de/65e386cb-9548-49f6-bb9d-9bb9bdd2908b/2d4bd427-56ea-4b53-912b-30a9d9c120c0"
 					(reference "R22")
 					(unit 1)
+					(variant
+						(name "lcsc part")
+					)
 				)
 			)
 		)
@@ -9488,6 +10186,17 @@
 				)
 			)
 		)
+		(property "LCSC part" ""
+			(at 376.428 104.648 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c13b555d-9090-4acf-9089-4b900336ed9f")
 		)
@@ -9499,6 +10208,9 @@
 				(path "/da19c67a-469a-44e7-8a74-463ad7920b7d/a98a3ab7-a6a1-4de3-a15a-b725e6acd4de/65e386cb-9548-49f6-bb9d-9bb9bdd2908b/2d4bd427-56ea-4b53-912b-30a9d9c120c0"
 					(reference "R24")
 					(unit 1)
+					(variant
+						(name "lcsc part")
+					)
 				)
 			)
 		)
@@ -9568,6 +10280,17 @@
 				)
 			)
 		)
+		(property "LCSC part" ""
+			(at 185.928 62.738 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "fe307689-a4fb-4552-85f6-82a9a0ef9fdc")
 		)
@@ -9579,6 +10302,9 @@
 				(path "/da19c67a-469a-44e7-8a74-463ad7920b7d/a98a3ab7-a6a1-4de3-a15a-b725e6acd4de/65e386cb-9548-49f6-bb9d-9bb9bdd2908b/2d4bd427-56ea-4b53-912b-30a9d9c120c0"
 					(reference "C7")
 					(unit 1)
+					(variant
+						(name "lcsc part")
+					)
 				)
 			)
 		)
@@ -9593,10 +10319,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "7d8b435b-571f-437c-89a1-c7427f446dba")
 		(property "Reference" "C4"
-			(at 150.368 56.388 0)
+			(at 147.574 52.832 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9607,7 +10332,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 150.368 58.928 0)
+			(at 147.574 55.372 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9650,6 +10375,17 @@
 				)
 			)
 		)
+		(property "LCSC part" ""
+			(at 146.558 57.658 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "7607000c-8b31-42fd-8605-5d7ec306e1b8")
 		)
@@ -9661,6 +10397,9 @@
 				(path "/da19c67a-469a-44e7-8a74-463ad7920b7d/a98a3ab7-a6a1-4de3-a15a-b725e6acd4de/65e386cb-9548-49f6-bb9d-9bb9bdd2908b/2d4bd427-56ea-4b53-912b-30a9d9c120c0"
 					(reference "C4")
 					(unit 1)
+					(variant
+						(name "lcsc part")
+					)
 				)
 			)
 		)
@@ -9808,6 +10547,17 @@
 				)
 			)
 		)
+		(property "LCSC part" ""
+			(at 300.228 90.678 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "dbe1b7c9-5b4c-4e4c-b520-aec47c425a65")
 		)
@@ -9819,6 +10569,9 @@
 				(path "/da19c67a-469a-44e7-8a74-463ad7920b7d/a98a3ab7-a6a1-4de3-a15a-b725e6acd4de/65e386cb-9548-49f6-bb9d-9bb9bdd2908b/2d4bd427-56ea-4b53-912b-30a9d9c120c0"
 					(reference "L1")
 					(unit 1)
+					(variant
+						(name "lcsc part")
+					)
 				)
 			)
 		)
@@ -9966,6 +10719,17 @@
 				)
 			)
 		)
+		(property "LCSC part" ""
+			(at 254.508 177.038 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "7049e603-47ec-4a8d-90d0-eb2171706886")
 		)
@@ -9977,6 +10741,9 @@
 				(path "/da19c67a-469a-44e7-8a74-463ad7920b7d/a98a3ab7-a6a1-4de3-a15a-b725e6acd4de/65e386cb-9548-49f6-bb9d-9bb9bdd2908b/2d4bd427-56ea-4b53-912b-30a9d9c120c0"
 					(reference "R18")
 					(unit 1)
+					(variant
+						(name "lcsc part")
+					)
 				)
 			)
 		)
@@ -10048,6 +10815,17 @@
 				)
 			)
 		)
+		(property "LCSC part" ""
+			(at 359.918 53.848 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "3a029972-13eb-4bee-9028-ae0eed3c0981")
 		)
@@ -10059,100 +10837,9 @@
 				(path "/da19c67a-469a-44e7-8a74-463ad7920b7d/a98a3ab7-a6a1-4de3-a15a-b725e6acd4de/65e386cb-9548-49f6-bb9d-9bb9bdd2908b/2d4bd427-56ea-4b53-912b-30a9d9c120c0"
 					(reference "C19")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:SiS454DN")
-		(at 287.528 102.108 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8bc694da-b3e4-41d9-9349-2fbf8a0371c3")
-		(property "Reference" "Q4"
-			(at 292.862 100.8379 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SiS412DN"
-			(at 292.862 103.3779 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_SO:Vishay_PowerPAK_1212-8_Single"
-			(at 292.608 104.013 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/66707/sis454dn.pdf"
-			(at 292.608 105.918 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "35A Id, 20V Vds, N-Channel MOSFET, PowerPAK 1212-8 Single"
-			(at 287.528 102.108 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6f36106a-a103-4920-b204-45143afdb1d7")
-		)
-		(pin "4"
-			(uuid "0a9a78dc-2ff7-4cc7-b021-20bdb25c1cc5")
-		)
-		(pin "2"
-			(uuid "c9e6560c-29aa-4771-aaf9-a4d2f70cf586")
-		)
-		(pin "5"
-			(uuid "30de5fbe-b183-4e9c-951a-c965e9eb0199")
-		)
-		(pin "3"
-			(uuid "4d552d89-1e0a-40f7-b237-a47e5ad80920")
-		)
-		(instances
-			(project "loc"
-				(path "/da19c67a-469a-44e7-8a74-463ad7920b7d/a98a3ab7-a6a1-4de3-a15a-b725e6acd4de/65e386cb-9548-49f6-bb9d-9bb9bdd2908b/2d4bd427-56ea-4b53-912b-30a9d9c120c0"
-					(reference "Q4")
-					(unit 1)
+					(variant
+						(name "lcsc part")
+					)
 				)
 			)
 		)
@@ -10222,6 +10909,17 @@
 				)
 			)
 		)
+		(property "LCSC part" ""
+			(at 329.438 102.108 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "6b24af5b-a89d-45f4-9f08-65aafabb63ce")
 		)
@@ -10233,6 +10931,9 @@
 				(path "/da19c67a-469a-44e7-8a74-463ad7920b7d/a98a3ab7-a6a1-4de3-a15a-b725e6acd4de/65e386cb-9548-49f6-bb9d-9bb9bdd2908b/2d4bd427-56ea-4b53-912b-30a9d9c120c0"
 					(reference "C16")
 					(unit 1)
+					(variant
+						(name "lcsc part")
+					)
 				)
 			)
 		)
@@ -10313,6 +11014,17 @@
 				)
 			)
 		)
+		(property "LCSC part" ""
+			(at 251.968 141.478 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "967098e7-f94b-45a7-b8aa-fbe7a983167c")
 		)
@@ -10324,6 +11036,9 @@
 				(path "/da19c67a-469a-44e7-8a74-463ad7920b7d/a98a3ab7-a6a1-4de3-a15a-b725e6acd4de/65e386cb-9548-49f6-bb9d-9bb9bdd2908b/2d4bd427-56ea-4b53-912b-30a9d9c120c0"
 					(reference "D3")
 					(unit 1)
+					(variant
+						(name "lcsc part")
+					)
 				)
 			)
 		)
@@ -10473,6 +11188,17 @@
 				)
 			)
 		)
+		(property "LCSC part" ""
+			(at 155.448 135.128 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "6853df39-7087-41e9-add9-352001c64f6e")
 		)
@@ -10484,6 +11210,9 @@
 				(path "/da19c67a-469a-44e7-8a74-463ad7920b7d/a98a3ab7-a6a1-4de3-a15a-b725e6acd4de/65e386cb-9548-49f6-bb9d-9bb9bdd2908b/2d4bd427-56ea-4b53-912b-30a9d9c120c0"
 					(reference "R9")
 					(unit 1)
+					(variant
+						(name "lcsc part")
+					)
 				)
 			)
 		)
@@ -10555,6 +11284,17 @@
 				)
 			)
 		)
+		(property "LCSC part" ""
+			(at 227.838 157.988 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "a7d02fe6-18fb-49b0-bc5d-dea05d3c66fc")
 		)
@@ -10566,6 +11306,9 @@
 				(path "/da19c67a-469a-44e7-8a74-463ad7920b7d/a98a3ab7-a6a1-4de3-a15a-b725e6acd4de/65e386cb-9548-49f6-bb9d-9bb9bdd2908b/2d4bd427-56ea-4b53-912b-30a9d9c120c0"
 					(reference "R15")
 					(unit 1)
+					(variant
+						(name "lcsc part")
+					)
 				)
 			)
 		)
@@ -10793,6 +11536,17 @@
 				)
 			)
 		)
+		(property "LCSC part" ""
+			(at 164.338 118.618 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "9ce9cadd-758f-4b2e-957a-244b5e46c80d")
 		)
@@ -10804,6 +11558,9 @@
 				(path "/da19c67a-469a-44e7-8a74-463ad7920b7d/a98a3ab7-a6a1-4de3-a15a-b725e6acd4de/65e386cb-9548-49f6-bb9d-9bb9bdd2908b/2d4bd427-56ea-4b53-912b-30a9d9c120c0"
 					(reference "R10")
 					(unit 1)
+					(variant
+						(name "lcsc part")
+					)
 				)
 			)
 		)
@@ -10875,6 +11632,17 @@
 				)
 			)
 		)
+		(property "LCSC part" ""
+			(at 155.448 118.618 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "edd4b687-682c-4b05-b6ee-c2cbb6afe835")
 		)
@@ -10886,6 +11654,9 @@
 				(path "/da19c67a-469a-44e7-8a74-463ad7920b7d/a98a3ab7-a6a1-4de3-a15a-b725e6acd4de/65e386cb-9548-49f6-bb9d-9bb9bdd2908b/2d4bd427-56ea-4b53-912b-30a9d9c120c0"
 					(reference "R8")
 					(unit 1)
+					(variant
+						(name "lcsc part")
+					)
 				)
 			)
 		)
@@ -11113,6 +11884,17 @@
 				)
 			)
 		)
+		(property "LCSC part" ""
+			(at 376.428 116.078 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "3056f7be-2651-47a9-8ac1-73e26904de66")
 		)
@@ -11124,6 +11906,9 @@
 				(path "/da19c67a-469a-44e7-8a74-463ad7920b7d/a98a3ab7-a6a1-4de3-a15a-b725e6acd4de/65e386cb-9548-49f6-bb9d-9bb9bdd2908b/2d4bd427-56ea-4b53-912b-30a9d9c120c0"
 					(reference "R25")
 					(unit 1)
+					(variant
+						(name "lcsc part")
+					)
 				)
 			)
 		)
@@ -11271,6 +12056,17 @@
 				)
 			)
 		)
+		(property "LCSC part" ""
+			(at 212.598 39.878 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b0b98770-f258-4614-a192-0aa8d2fd8816")
 		)
@@ -11282,6 +12078,9 @@
 				(path "/da19c67a-469a-44e7-8a74-463ad7920b7d/a98a3ab7-a6a1-4de3-a15a-b725e6acd4de/65e386cb-9548-49f6-bb9d-9bb9bdd2908b/2d4bd427-56ea-4b53-912b-30a9d9c120c0"
 					(reference "R14")
 					(unit 1)
+					(variant
+						(name "lcsc part")
+					)
 				)
 			)
 		)
@@ -11353,6 +12152,17 @@
 				)
 			)
 		)
+		(property "LCSC part" ""
+			(at 145.288 135.128 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "83ced970-6b87-4ca4-be00-48864819d67d")
 		)
@@ -11364,6 +12174,9 @@
 				(path "/da19c67a-469a-44e7-8a74-463ad7920b7d/a98a3ab7-a6a1-4de3-a15a-b725e6acd4de/65e386cb-9548-49f6-bb9d-9bb9bdd2908b/2d4bd427-56ea-4b53-912b-30a9d9c120c0"
 					(reference "R7")
 					(unit 1)
+					(variant
+						(name "lcsc part")
+					)
 				)
 			)
 		)
@@ -11590,6 +12403,17 @@
 				)
 			)
 		)
+		(property "LCSC part" ""
+			(at 140.716 219.456 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "4"
 			(uuid "9fb7f4cb-4cc6-41f7-8cc8-5f294df662e1")
 		)
@@ -11613,6 +12437,9 @@
 				(path "/da19c67a-469a-44e7-8a74-463ad7920b7d/a98a3ab7-a6a1-4de3-a15a-b725e6acd4de/65e386cb-9548-49f6-bb9d-9bb9bdd2908b/2d4bd427-56ea-4b53-912b-30a9d9c120c0"
 					(reference "U2")
 					(unit 1)
+					(variant
+						(name "lcsc part")
+					)
 				)
 			)
 		)
@@ -11684,6 +12511,17 @@
 				)
 			)
 		)
+		(property "LCSC part" ""
+			(at 318.008 65.278 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "384e44e4-cffa-48e0-81b7-8364d7f5ba6f")
 		)
@@ -11695,6 +12533,9 @@
 				(path "/da19c67a-469a-44e7-8a74-463ad7920b7d/a98a3ab7-a6a1-4de3-a15a-b725e6acd4de/65e386cb-9548-49f6-bb9d-9bb9bdd2908b/2d4bd427-56ea-4b53-912b-30a9d9c120c0"
 					(reference "C15")
 					(unit 1)
+					(variant
+						(name "lcsc part")
+					)
 				)
 			)
 		)
@@ -11733,7 +12574,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3216-10_Kemet-I_HandSolder"
+		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3528-12_Kemet-T_HandSolder"
 			(at 111.7092 72.898 0)
 			(hide yes)
 			(show_name no)
@@ -11766,6 +12607,17 @@
 				)
 			)
 		)
+		(property "LCSC part" ""
+			(at 110.744 69.088 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "4542619b-1273-4548-9b31-43d6ad4b6f2d")
 		)
@@ -11777,6 +12629,9 @@
 				(path "/da19c67a-469a-44e7-8a74-463ad7920b7d/a98a3ab7-a6a1-4de3-a15a-b725e6acd4de/65e386cb-9548-49f6-bb9d-9bb9bdd2908b/2d4bd427-56ea-4b53-912b-30a9d9c120c0"
 					(reference "C1")
 					(unit 1)
+					(variant
+						(name "lcsc part")
+					)
 				)
 			)
 		)
@@ -11848,6 +12703,17 @@
 				)
 			)
 		)
+		(property "LCSC part" ""
+			(at 175.514 242.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "fb03d0e0-b003-455e-b7cd-afccc735e59c")
 		)
@@ -11858,6 +12724,112 @@
 			(project "loc"
 				(path "/da19c67a-469a-44e7-8a74-463ad7920b7d/a98a3ab7-a6a1-4de3-a15a-b725e6acd4de/65e386cb-9548-49f6-bb9d-9bb9bdd2908b/2d4bd427-56ea-4b53-912b-30a9d9c120c0"
 					(reference "R12")
+					(unit 1)
+					(variant
+						(name "lcsc part")
+					)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:FDS6630A")
+		(at 257.048 80.518 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c7ef23a3-7d10-413a-b307-98ceb100ac89")
+		(property "Reference" "Q3"
+			(at 263.398 79.2479 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "FDS6690A"
+			(at 263.398 81.7879 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 262.128 82.423 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "http://www.onsemi.com/pub/Collateral/FDS6630A-D.pdf"
+			(at 262.128 84.328 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "6.5A Id, 30V Vds, N-Channel MOSFET, 38mOhm Ron, SOIC-8"
+			(at 257.048 80.518 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "6"
+			(uuid "bb84f411-c134-4451-9eee-66033f934db7")
+		)
+		(pin "4"
+			(uuid "4a9674d6-6235-4c15-8709-da0f5b43097f")
+		)
+		(pin "5"
+			(uuid "70693b3e-84e3-4eeb-8ad1-a22b241fd26c")
+		)
+		(pin "7"
+			(uuid "4d470746-13cf-4c28-8cc7-5fc243c0dcdf")
+		)
+		(pin "2"
+			(uuid "776aadea-1a59-44da-b8b8-e025a80ec21a")
+		)
+		(pin "1"
+			(uuid "0671caae-621b-4d23-ade3-8130bca0d160")
+		)
+		(pin "3"
+			(uuid "2b1a10f1-b8e9-48e1-bae7-57d643824941")
+		)
+		(pin "8"
+			(uuid "fe4d9609-95b1-4daa-8392-aab91227f870")
+		)
+		(instances
+			(project "loc"
+				(path "/da19c67a-469a-44e7-8a74-463ad7920b7d/a98a3ab7-a6a1-4de3-a15a-b725e6acd4de/65e386cb-9548-49f6-bb9d-9bb9bdd2908b/2d4bd427-56ea-4b53-912b-30a9d9c120c0"
+					(reference "Q3")
 					(unit 1)
 				)
 			)
@@ -11928,6 +12900,17 @@
 				)
 			)
 		)
+		(property "LCSC part" ""
+			(at 111.252 214.376 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "5d11a9f5-45f7-4fd3-982d-85a63f6fe77d")
 		)
@@ -11939,100 +12922,9 @@
 				(path "/da19c67a-469a-44e7-8a74-463ad7920b7d/a98a3ab7-a6a1-4de3-a15a-b725e6acd4de/65e386cb-9548-49f6-bb9d-9bb9bdd2908b/2d4bd427-56ea-4b53-912b-30a9d9c120c0"
 					(reference "R3")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:SiS454DN")
-		(at 257.048 80.518 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d0474882-a25b-4390-840a-b330a2badf48")
-		(property "Reference" "Q3"
-			(at 262.382 79.2479 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SiS412DN"
-			(at 262.382 81.7879 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_SO:Vishay_PowerPAK_1212-8_Single"
-			(at 262.128 82.423 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/66707/sis454dn.pdf"
-			(at 262.128 84.328 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "35A Id, 20V Vds, N-Channel MOSFET, PowerPAK 1212-8 Single"
-			(at 257.048 80.518 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a4ca789f-5df0-478f-8fea-ca875372a87d")
-		)
-		(pin "4"
-			(uuid "6ea46a15-c0d5-4b41-a48e-10168706d4be")
-		)
-		(pin "2"
-			(uuid "3c192e00-46fb-4a8c-a50e-5922ce72ce4e")
-		)
-		(pin "5"
-			(uuid "dfb6d4dd-6e0b-49c4-b5ff-55a1d5b9ce06")
-		)
-		(pin "3"
-			(uuid "361b3d24-d5a2-4161-9c2f-016d32be5c66")
-		)
-		(instances
-			(project "loc"
-				(path "/da19c67a-469a-44e7-8a74-463ad7920b7d/a98a3ab7-a6a1-4de3-a15a-b725e6acd4de/65e386cb-9548-49f6-bb9d-9bb9bdd2908b/2d4bd427-56ea-4b53-912b-30a9d9c120c0"
-					(reference "Q3")
-					(unit 1)
+					(variant
+						(name "lcsc part")
+					)
 				)
 			)
 		)
@@ -12116,100 +13008,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:Si7617DN")
-		(at 330.708 74.168 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d1c8c6b5-6d13-4aa3-b995-ed6241e80c5e")
-		(property "Reference" "Q5"
-			(at 337.058 72.898 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Si7617DN"
-			(at 337.058 75.438 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_SO:Vishay_PowerPAK_1212-8_Single"
-			(at 335.788 76.073 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/65164/si7617dn.pdf"
-			(at 335.788 77.978 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "-35A Id, -30V Vds, 0.0123 Ohm Ron, PowerPAK-8"
-			(at 330.708 74.168 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "b851a09e-ed03-4697-88f2-05b12a613f38")
-		)
-		(pin "2"
-			(uuid "a1d8365c-abd4-437b-b22e-9575ed631ad5")
-		)
-		(pin "1"
-			(uuid "9a4ef265-17b7-4593-82ed-2a988f91259e")
-		)
-		(pin "5"
-			(uuid "a5071a1a-7e0f-4d5a-bf0a-1294d6736230")
-		)
-		(pin "4"
-			(uuid "dfa93206-d35c-4ac9-bf99-038cfd81712e")
-		)
-		(instances
-			(project "loc"
-				(path "/da19c67a-469a-44e7-8a74-463ad7920b7d/a98a3ab7-a6a1-4de3-a15a-b725e6acd4de/65e386cb-9548-49f6-bb9d-9bb9bdd2908b/2d4bd427-56ea-4b53-912b-30a9d9c120c0"
-					(reference "Q5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 250.698 55.118 0)
 		(unit 1)
@@ -12276,6 +13074,17 @@
 				)
 			)
 		)
+		(property "LCSC part" ""
+			(at 250.698 55.118 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f7f4a85d-6e9a-41b0-af9f-fd4fd78c7a71")
 		)
@@ -12287,6 +13096,9 @@
 				(path "/da19c67a-469a-44e7-8a74-463ad7920b7d/a98a3ab7-a6a1-4de3-a15a-b725e6acd4de/65e386cb-9548-49f6-bb9d-9bb9bdd2908b/2d4bd427-56ea-4b53-912b-30a9d9c120c0"
 					(reference "C11")
 					(unit 1)
+					(variant
+						(name "lcsc part")
+					)
 				)
 			)
 		)
@@ -12358,6 +13170,17 @@
 				)
 			)
 		)
+		(property "LCSC part" ""
+			(at 82.55 62.23 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f40d8e6b-1e23-474f-ab0c-525fea2592bb")
 		)
@@ -12368,6 +13191,475 @@
 			(project "loc"
 				(path "/da19c67a-469a-44e7-8a74-463ad7920b7d/a98a3ab7-a6a1-4de3-a15a-b725e6acd4de/65e386cb-9548-49f6-bb9d-9bb9bdd2908b/2d4bd427-56ea-4b53-912b-30a9d9c120c0"
 					(reference "D1")
+					(unit 1)
+					(variant
+						(name "lcsc part")
+					)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "symbol:AO4407A")
+		(at 330.708 74.295 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d7f4aef2-dc50-4e40-b5b4-4d4439b3b2ae")
+		(property "Reference" "Q5"
+			(at 336.042 75.5651 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "AO4407A"
+			(at 336.042 73.0251 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "footprintf:SOIC127P600X175-8N"
+			(at 330.708 74.295 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 330.708 74.295 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "P-Channel 30 V 12A (Ta) 3.1W (Ta) Surface Mount 8-SOIC"
+			(at 330.708 74.295 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MF" "Alpha &"
+			(at 330.708 74.295 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "1.75 mm"
+			(at 330.708 74.295 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "SOIC-8 Alpha &amp; Omega Semiconductor"
+			(at 330.708 74.295 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 330.708 74.295 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/AO4407A/Alpha/view-part/?ref=eda"
+			(at 330.708 74.295 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "IPC 7351B"
+			(at 330.708 74.295 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PARTREV" "I"
+			(at 330.708 74.295 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/AO4407A/Alpha/view-part/?ref=snap"
+			(at 330.708 74.295 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "AO4407A"
+			(at 330.708 74.295 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 330.708 74.295 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "Alpha & Omega Semiconductor"
+			(at 330.708 74.295 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "8"
+			(uuid "e1890d9b-5822-49f4-bf77-23353dfabe1f")
+		)
+		(pin "6"
+			(uuid "1ac7e5d2-668b-408b-b038-d55527c075d2")
+		)
+		(pin "1"
+			(uuid "cd2feb0c-b7ef-446b-983b-7057bdcbb59b")
+		)
+		(pin "4"
+			(uuid "64df084c-ff5e-4939-a0f0-40abeaa6881c")
+		)
+		(pin "7"
+			(uuid "3a87aa80-47a8-4689-bd1c-745932e18f7c")
+		)
+		(pin "5"
+			(uuid "dea1768b-ced2-4c46-8594-532fc94bedf0")
+		)
+		(pin "2"
+			(uuid "5580571c-10f8-4686-bdad-1a77f24c6ade")
+		)
+		(pin "3"
+			(uuid "beb9e85f-73fc-432e-9dbf-ffb20ec3be58")
+		)
+		(instances
+			(project "loc"
+				(path "/da19c67a-469a-44e7-8a74-463ad7920b7d/a98a3ab7-a6a1-4de3-a15a-b725e6acd4de/65e386cb-9548-49f6-bb9d-9bb9bdd2908b/2d4bd427-56ea-4b53-912b-30a9d9c120c0"
+					(reference "Q5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "symbol:AO4407A")
+		(at 126.238 52.578 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d86b0509-1f46-4a18-900e-8aa52bfaa3a3")
+		(property "Reference" "Q1"
+			(at 126.238 43.688 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AO4407A"
+			(at 126.238 46.228 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprintf:SOIC127P600X175-8N"
+			(at 126.238 52.578 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 126.238 52.578 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "P-Channel 30 V 12A (Ta) 3.1W (Ta) Surface Mount 8-SOIC"
+			(at 126.238 52.578 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MF" "Alpha &"
+			(at 126.238 52.578 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "1.75 mm"
+			(at 126.238 52.578 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "SOIC-8 Alpha &amp; Omega Semiconductor"
+			(at 126.238 52.578 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 126.238 52.578 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/AO4407A/Alpha/view-part/?ref=eda"
+			(at 126.238 52.578 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "IPC 7351B"
+			(at 126.238 52.578 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PARTREV" "I"
+			(at 126.238 52.578 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/AO4407A/Alpha/view-part/?ref=snap"
+			(at 126.238 52.578 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "AO4407A"
+			(at 126.238 52.578 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 126.238 52.578 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "Alpha & Omega Semiconductor"
+			(at 126.238 52.578 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "8"
+			(uuid "6634b71f-797f-4776-a497-ba5262bb1cbf")
+		)
+		(pin "6"
+			(uuid "25f5f97e-af15-47a6-92a8-1d83aa8c639b")
+		)
+		(pin "1"
+			(uuid "5c006f95-5968-492c-8f79-340432a6249f")
+		)
+		(pin "4"
+			(uuid "b4b0eb1d-16a1-49f9-9413-b16ee39d41f7")
+		)
+		(pin "7"
+			(uuid "7542d2b3-c581-4618-9442-0dcc8268d519")
+		)
+		(pin "5"
+			(uuid "ecccccb3-49c7-4b04-bca7-6b3dafdab76d")
+		)
+		(pin "2"
+			(uuid "ad74e3cf-4822-4bec-b932-d6db9961f6fd")
+		)
+		(pin "3"
+			(uuid "d243f6ba-af8f-4c23-ad06-de81d8318e13")
+		)
+		(instances
+			(project "loc"
+				(path "/da19c67a-469a-44e7-8a74-463ad7920b7d/a98a3ab7-a6a1-4de3-a15a-b725e6acd4de/65e386cb-9548-49f6-bb9d-9bb9bdd2908b/2d4bd427-56ea-4b53-912b-30a9d9c120c0"
+					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -12440,6 +13732,17 @@
 				)
 			)
 		)
+		(property "LCSC part" ""
+			(at 245.618 69.088 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "a801d502-b946-4fb1-85f9-4d27b32f02f3")
 		)
@@ -12451,6 +13754,9 @@
 				(path "/da19c67a-469a-44e7-8a74-463ad7920b7d/a98a3ab7-a6a1-4de3-a15a-b725e6acd4de/65e386cb-9548-49f6-bb9d-9bb9bdd2908b/2d4bd427-56ea-4b53-912b-30a9d9c120c0"
 					(reference "R16")
 					(unit 1)
+					(variant
+						(name "lcsc part")
+					)
 				)
 			)
 		)
@@ -12519,6 +13825,17 @@
 				)
 			)
 		)
+		(property "LCSC part" ""
+			(at 29.464 53.594 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "a3e7f6ec-b44b-4d09-b415-141c134da8b7")
 		)
@@ -12530,6 +13847,9 @@
 				(path "/da19c67a-469a-44e7-8a74-463ad7920b7d/a98a3ab7-a6a1-4de3-a15a-b725e6acd4de/65e386cb-9548-49f6-bb9d-9bb9bdd2908b/2d4bd427-56ea-4b53-912b-30a9d9c120c0"
 					(reference "J1")
 					(unit 1)
+					(variant
+						(name "lcsc part")
+					)
 				)
 			)
 		)
@@ -12599,6 +13919,17 @@
 				)
 			)
 		)
+		(property "LCSC part" ""
+			(at 109.474 202.946 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "660a57b4-89e2-4412-b5bd-4e7ebd917f88")
 		)
@@ -12610,6 +13941,9 @@
 				(path "/da19c67a-469a-44e7-8a74-463ad7920b7d/a98a3ab7-a6a1-4de3-a15a-b725e6acd4de/65e386cb-9548-49f6-bb9d-9bb9bdd2908b/2d4bd427-56ea-4b53-912b-30a9d9c120c0"
 					(reference "R1")
 					(unit 1)
+					(variant
+						(name "lcsc part")
+					)
 				)
 			)
 		)
@@ -12759,6 +14093,17 @@
 				)
 			)
 		)
+		(property "LCSC part" ""
+			(at 343.408 104.648 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "ac797264-1f72-4208-a7c0-dad4d275ff54")
 		)
@@ -12770,6 +14115,9 @@
 				(path "/da19c67a-469a-44e7-8a74-463ad7920b7d/a98a3ab7-a6a1-4de3-a15a-b725e6acd4de/65e386cb-9548-49f6-bb9d-9bb9bdd2908b/2d4bd427-56ea-4b53-912b-30a9d9c120c0"
 					(reference "C17")
 					(unit 1)
+					(variant
+						(name "lcsc part")
+					)
 				)
 			)
 		)
@@ -12927,6 +14275,17 @@
 				)
 			)
 		)
+		(property "LCSC part" ""
+			(at 251.968 132.588 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "23b23cfc-49ea-4fd3-8d50-8fa0037cb069")
 		)
@@ -12938,6 +14297,9 @@
 				(path "/da19c67a-469a-44e7-8a74-463ad7920b7d/a98a3ab7-a6a1-4de3-a15a-b725e6acd4de/65e386cb-9548-49f6-bb9d-9bb9bdd2908b/2d4bd427-56ea-4b53-912b-30a9d9c120c0"
 					(reference "D2")
 					(unit 1)
+					(variant
+						(name "lcsc part")
+					)
 				)
 			)
 		)
@@ -13007,6 +14369,17 @@
 				)
 			)
 		)
+		(property "LCSC part" ""
+			(at 264.668 150.368 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "824978e0-2f2e-4c16-8332-cd3a9d9199c7")
 		)
@@ -13018,6 +14391,9 @@
 				(path "/da19c67a-469a-44e7-8a74-463ad7920b7d/a98a3ab7-a6a1-4de3-a15a-b725e6acd4de/65e386cb-9548-49f6-bb9d-9bb9bdd2908b/2d4bd427-56ea-4b53-912b-30a9d9c120c0"
 					(reference "R21")
 					(unit 1)
+					(variant
+						(name "lcsc part")
+					)
 				)
 			)
 		)
@@ -13089,6 +14465,17 @@
 				)
 			)
 		)
+		(property "LCSC part" ""
+			(at 217.678 157.988 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "6948cf73-c278-4dae-b91c-1da093cb26ab")
 		)
@@ -13100,6 +14487,9 @@
 				(path "/da19c67a-469a-44e7-8a74-463ad7920b7d/a98a3ab7-a6a1-4de3-a15a-b725e6acd4de/65e386cb-9548-49f6-bb9d-9bb9bdd2908b/2d4bd427-56ea-4b53-912b-30a9d9c120c0"
 					(reference "C9")
 					(unit 1)
+					(variant
+						(name "lcsc part")
+					)
 				)
 			)
 		)
@@ -13170,6 +14560,17 @@
 				)
 			)
 		)
+		(property "LCSC part" ""
+			(at 119.38 218.186 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "034a6567-5fc9-4d8f-bd7a-07b5d4224d8f")
 		)
@@ -13181,6 +14582,9 @@
 				(path "/da19c67a-469a-44e7-8a74-463ad7920b7d/a98a3ab7-a6a1-4de3-a15a-b725e6acd4de/65e386cb-9548-49f6-bb9d-9bb9bdd2908b/2d4bd427-56ea-4b53-912b-30a9d9c120c0"
 					(reference "C2")
 					(unit 1)
+					(variant
+						(name "lcsc part")
+					)
 				)
 			)
 		)
@@ -13250,6 +14654,17 @@
 				)
 			)
 		)
+		(property "LCSC part" ""
+			(at 329.438 90.678 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "081e9f1f-45f8-487f-8ed2-abd7842a1e95")
 		)
@@ -13261,6 +14676,9 @@
 				(path "/da19c67a-469a-44e7-8a74-463ad7920b7d/a98a3ab7-a6a1-4de3-a15a-b725e6acd4de/65e386cb-9548-49f6-bb9d-9bb9bdd2908b/2d4bd427-56ea-4b53-912b-30a9d9c120c0"
 					(reference "R23")
 					(unit 1)
+					(variant
+						(name "lcsc part")
+					)
 				)
 			)
 		)
@@ -13332,6 +14750,17 @@
 				)
 			)
 		)
+		(property "LCSC part" ""
+			(at 316.738 97.028 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "9034a666-d3d8-49f2-9204-b2c3349b9806")
 		)
@@ -13343,6 +14772,9 @@
 				(path "/da19c67a-469a-44e7-8a74-463ad7920b7d/a98a3ab7-a6a1-4de3-a15a-b725e6acd4de/65e386cb-9548-49f6-bb9d-9bb9bdd2908b/2d4bd427-56ea-4b53-912b-30a9d9c120c0"
 					(reference "C14")
 					(unit 1)
+					(variant
+						(name "lcsc part")
+					)
 				)
 			)
 		)
@@ -13412,6 +14844,17 @@
 				)
 			)
 		)
+		(property "LCSC part" ""
+			(at 274.828 90.678 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "4402aab7-4c41-46c2-9bee-1d886cd9f049")
 		)
@@ -13422,6 +14865,112 @@
 			(project "loc"
 				(path "/da19c67a-469a-44e7-8a74-463ad7920b7d/a98a3ab7-a6a1-4de3-a15a-b725e6acd4de/65e386cb-9548-49f6-bb9d-9bb9bdd2908b/2d4bd427-56ea-4b53-912b-30a9d9c120c0"
 					(reference "C13")
+					(unit 1)
+					(variant
+						(name "lcsc part")
+					)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:FDS6630A")
+		(at 287.528 102.108 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f72175f1-4cfc-4ce1-abcc-8830ad86c9f3")
+		(property "Reference" "Q4"
+			(at 293.878 100.8379 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "FDS6690A"
+			(at 293.878 103.3779 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 292.608 104.013 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "http://www.onsemi.com/pub/Collateral/FDS6630A-D.pdf"
+			(at 292.608 105.918 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "6.5A Id, 30V Vds, N-Channel MOSFET, 38mOhm Ron, SOIC-8"
+			(at 287.528 102.108 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "6"
+			(uuid "ff9e2477-265f-4752-b5d8-b86984460ce8")
+		)
+		(pin "4"
+			(uuid "1b49584b-59bf-433d-8264-b39d7c99d387")
+		)
+		(pin "5"
+			(uuid "cde559fe-924b-4c11-9159-712aa5bfd76c")
+		)
+		(pin "7"
+			(uuid "7498be5c-56ca-4e88-a6be-87ece1868e18")
+		)
+		(pin "2"
+			(uuid "142befcd-54aa-49c8-b9ed-a019455b489b")
+		)
+		(pin "1"
+			(uuid "cdc39b54-16d6-4f15-a0d2-4786e392682a")
+		)
+		(pin "3"
+			(uuid "9938e7a7-530d-4b75-a997-589d8ea600e0")
+		)
+		(pin "8"
+			(uuid "710f5a9b-4338-48b6-b781-2d52ee6176a0")
+		)
+		(instances
+			(project "loc"
+				(path "/da19c67a-469a-44e7-8a74-463ad7920b7d/a98a3ab7-a6a1-4de3-a15a-b725e6acd4de/65e386cb-9548-49f6-bb9d-9bb9bdd2908b/2d4bd427-56ea-4b53-912b-30a9d9c120c0"
+					(reference "Q4")
 					(unit 1)
 				)
 			)
