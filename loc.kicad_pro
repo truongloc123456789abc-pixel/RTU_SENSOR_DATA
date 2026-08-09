@@ -872,7 +872,7 @@
         "uuid": "da19c67a-469a-44e7-8a74-463ad7920b7d"
       }
     ],
-    "used_designators": "U1-20,C1-111,D1-18,#PWR1-162,AE1,L1-4,#SYM1,Q1-11,R1-63,TP1-3,J1-11,FB1-3,SW1-5,Y1-4,IC1-2",
+    "used_designators": "U1-21,C1-111,D1-21,#PWR1-167,AE1,L1-4,#SYM1,Q1-11,R1-63,TP1-3,J1-12,FB1-3,SW1-5,Y1-4,IC1-4",
     "variants": [
       {
         "name": "lcsc part"
