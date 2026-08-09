@@ -6744,7 +6744,7 @@
 		(fields_autoplaced yes)
 		(uuid "5697ee80-0ffa-462d-be15-e45d526a25f8")
 		(property "Reference" "L1"
-			(at 193.421 66.6749 0)
+			(at 193.04 66.6749 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6754,8 +6754,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "6.8uH"
-			(at 193.421 69.2149 0)
+		(property "Value" "10uH"
+			(at 193.04 69.2149 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
